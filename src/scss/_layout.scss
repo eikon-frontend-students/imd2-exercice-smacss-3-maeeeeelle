@@ -1,16 +1,65 @@
 .l-header {
   background-image: url(../image/header\ background.png);
   width: 100%;
-  flex-shrink: 0;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-size: cover;
 }
 
-h1 {
+.l-green {
+  background-color: #9c3;
+}
+
+.l-blue {
+  background: #00a8b1;
+}
+
+.l-background {
   color: #fff;
   text-align: center;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-  font-family: Raleway;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px 15px 11px 15px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.l-types {
+  background-image: url(../image/Pattern.png);
+  background-repeat: repeat;
+  background-size: 50% 50%;
+  padding-bottom: 90px;
+}
+
+.l-orange {
+  background-color: #ffb500;
+  height: 10px;
+}
+
+.l-orange-footer {
+  margin-bottom: 35px;
+}
+
+.big {
+  height: 40px;
+}
+
+@media (max-width: 375px) {
+  .l-green,
+  .l-blue {
+    width: 375px;
+    margin-left: -12px;
+  }
+
+  .l-types {
+    background-size: 100%;
+  }
+
+  .l-blue {
+    margin-top: 5px;
+  }
 }

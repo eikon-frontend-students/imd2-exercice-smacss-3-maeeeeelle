@@ -1,15 +1,30 @@
-.article {
+.article-text {
+  padding: 20px;
   border: 1px solid #979797;
   background: #fff;
   color: #000;
   font-size: 18px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
+  border: 1px solid #979797;
+  background: #fff;
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.article {
+  margin-bottom: 30px;
 }
 
 .article p {
   color: #000;
   font-size: 16px;
   font-weight: 500;
+}
+
+.article h3 {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
